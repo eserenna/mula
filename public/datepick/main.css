@@ -1,0 +1,421 @@
+@import url(http://fonts.googleapis.com/css?family=Karla);
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background: #efefef;
+}
+
+/*No Underline on Links*/
+a:link,a:hover,a:visited{text-decoration:none;}
+#security_c{
+	display:none;
+}
+/*Image Centered*/
+img.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Border Options*/
+.border-r-half{
+	border-radius:5%;
+}
+.border-r-1{
+	border-radius:10%;
+}
+.border-r-2{
+	border-radius:20%;
+}
+.border-r-3{
+	border-radius:30%;
+}
+.border-r-4{
+	border-radius:40%;
+}
+.border-r-5{
+	border-radius:50%;
+}
+
+/*Textarea Non-resizable*/
+textarea.no-resize{
+    resize: none;
+}
+
+/*Padding Options*/
+.p-overall-10{
+	padding:10px;
+}
+.p-top-10{
+	padding-top:10px;
+}
+.p-bottom-10{
+	padding-bottom:10px;
+}
+.p-left-10{
+	padding-left:10px;
+}
+.p-right-10{
+	padding-right:10px;
+}
+.p-overall-20{
+	padding:20px;
+}
+.p-top-20{
+	padding-top:20px;
+}
+.p-bottom-20{
+	padding-bottom:20px;
+}
+.p-left-20{
+	padding-left:20px;
+}
+.p-right-20{
+	padding-right:20px;
+}
+.p-overall-30{
+	padding:30px;
+}
+.p-top-30{
+	padding-top:30px;
+}
+.p-bottom-30{
+	padding-bottom:30px;
+}
+.p-left-30{
+	padding-left:30px;
+}
+.p-right-30{
+	padding-right:30px;
+}
+.p-overall-40{
+	padding:40px;
+}
+.p-top-40{
+	padding-top:40px;
+}
+.p-bottom-40{
+	padding-bottom:40px;
+}
+.p-left-40{
+	padding-left:40px;
+}
+.p-right-40{
+	padding-right:40px;
+}
+.p-overall-50{
+	padding:50px;
+}
+.p-top-50{
+	padding-top:50px;
+}
+.p-bottom-50{
+	padding-bottom:50px;
+}
+.p-left-50{
+	padding-left:50px;
+}
+.p-right-50{
+	padding-right:50px;
+}
+
+/*Margin Options*/
+.m-top-10{
+	margin-top:10px;
+}
+.m-bottom-10{
+	margin-bottom:10px;
+}
+.m-top-20{
+	margin-top:20px;
+}
+.m-bottom-20{
+	margin-bottom:20px;
+}
+.m-top-30{
+	margin-top:30px;
+}
+.m-bottom-30{
+	margin-bottom:30px;
+}
+.m-top-40{
+	margin-top:40px;
+}
+.m-bottom-40{
+	margin-bottom:40px;
+}
+.m-top-50{
+	margin-top:50px;
+}
+.m-bottom-50{
+	margin-bottom:50px;
+}
+
+/*Text Justified*/
+.text-justified
+{
+	text-align:justify;
+}
+
+/*Text Color Option*/
+.white-text{
+	color:#FFF;
+}
+.black-text{
+	color:#000;
+}
+
+/*Background Color Option*/
+.bg-whitish{
+	background:#fff;
+}
+.bg-greyish-e{
+	background:#eee;
+}
+.bg-greyish-c{
+	background:#ccc;
+}
+.bg-greyish-a{
+	background:#aaa;
+}
+.bg-greyish-8{
+	background:#888;
+}
+.bg-greyish-6{
+	background:#666;
+}
+.bg-greyish-4{
+	background:#444;
+}
+.bg-greyish-2{
+	background:#222;
+}
+.bg-blackish{
+	background:#000;
+}
+.bg-reddish{
+	background:#ff4c4c;
+}
+.bg-bluish{
+	background:#4c4cff;
+}
+.bg-greenish{
+	background:#4cff4c;
+}
+.bg-pinkish{
+	background:#ff4ca6;
+}
+.bg-sea{
+	background:#4ca6ff;
+}
+.bg-lime{
+	background:#a6ff4c;
+}
+.bg-orange{
+	background:#ffa64c;
+}
+.bg-violet{
+	background:#a64cff;
+}
+.bg-cyan{
+	background:#4cffa6;
+}
+
+/*Shadow Box*/
+.boxed{
+	box-shadow:5px 5px 20px 0px #ddd;
+}
+
+/*Liner Option*/
+.bottom-liner-w{
+	border-bottom:3px solid #FFF;
+}
+.top-liner-b{
+	border-top:3px solid #000;
+}
+.bottom-liner-b{
+	border-bottom:3px solid #000;
+}
+.top-liner-w{
+	border-top:3px solid #FFF;
+}
+/*Error Message*/
+.error-message{
+	display:none;
+	color:#FF0000;
+}
+
+/*Float Options*/
+.go-left{
+	float:left;
+}
+.go-right{
+	float:right;
+}
+
+/*Font Options*/
+.font-5{
+	font-size:5px;
+}
+.font-6{
+	font-size:6px;
+}
+.font-7{
+	font-size:7px;
+}
+.font-8{
+	font-size:8px;
+}
+.font-9{
+	font-size:9px;
+}
+.font-10{
+	font-size:10px;
+}
+.font-11{
+	font-size:11px;
+}
+.font-12{
+	font-size:12px;
+}
+.font-13{
+	font-size:13px;
+}
+.font-14{
+	font-size:14px;
+}
+.font-15{
+	font-size:15px;
+}
+.font-16{
+	font-size:16px;
+}
+.font-17{
+	font-size:17px;
+}
+.font-18{
+	font-size:18px;
+}
+.font-19{
+	font-size:19px;
+}
+.font-20{
+	font-size:20px;
+}
+.font-21{
+	font-size:21px;
+}
+.font-22{
+	font-size:22px;
+}
+.font-23{
+	font-size:23px;
+}
+.font-24{
+	font-size:25px;
+}
+.font-26{
+	font-size:26px;
+}
+.font-27{
+	font-size:27px;
+}
+.font-28{
+	font-size:28px;
+}
+.font-29{
+	font-size:29px;
+}
+.font-30{
+	font-size:30px;
+}
+.font-small-cap{
+	font-variant:small-caps;
+}
+
+/*Words in the box*/
+.words-boxed{
+	word-wrap: break-word;
+}
+
+/*Box Shadow*/
+.boxed-small{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+}
+.boxed-moderate{
+	box-shadow: 5px 5px 5px #888888;
+}
+.boxed-big{
+box-shadow: 7px 7px 10px #888888;
+}
+.boxed-biggest{
+    box-shadow: 10px 10px 5px #888888;
+}
+
+input[type="text"].beauty {
+	display: block;
+	margin: 0;
+	margin-bottom: 5px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12.5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	-ms-border-radius: none;
+	-o-border-radius: none;
+	border-radius: none;
+  	padding: 10px;
+  	border: solid 1px gainsboro;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+  	transition: 0.5s;
+}
+
+input[type="text"].beauty:focus {
+  	outline: none;
+	border: 1px solid #03bdf4;
+  	-webkit-box-shadow: 0 0 5px 1px #969696;
+  	-moz-box-shadow: 0 0 5px 1px #969696;
+  	box-shadow: 0 0 5px 1px #969696;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+  	transition: 0.5s;
+}
+/*Select Input*/
+.beauty{
+	background: url(idiotproof.img/idiotproof.menu/down.png) no-repeat right;
+	overflow:hidden; /* this hides the select's drop button */
+    padding:0; 
+    margin:0; 
+    width:90%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+    border: solid 1px #ccc;	
+	color:#000;
+}
+.beauty:hover{
+	background: url(idiotproof.img/idiotproof.menu/down-hover.png) no-repeat right #fff;
+}
+.beauty select{
+	height:30px;
+	width:115%; /* this percentage effectively extends the drop down button out of view */
+    background-color:transparent; /* this hides the select's background making any styling visible from the div */
+    background-image:none; 
+    -webkit-appearance: none; /* this is required for Webkit browsers */ 
+    border:none; 
+    box-shadow:none; 
+    padding:0.3em 0.5em; /* padding should be added to the select, not the div */
+	outline:none;
+}
+/*
+.beauty option{
+	width:100%;
+	overflow:hidden; 
+	margin-right:40px;
+}
+*/

@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+.pop{
+	left:0px;
+	right:0px;
+	top: 0;
+	bottom: 0px;
+	position: fixed;
+	font-family: 'Montserrat', sans-serif;
+	display: none;
+}
+.pop-shadow{
+    outline: none;
+	position: fixed;
+	margin-top: 0;
+	z-index: 100;
+	overflow: visible;
+	left:0px;
+	right:0px;
+	top: 0;
+	bottom: 0px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.pop-content {
+	position:fixed;
+	z-index: 200 !important;
+	box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+	border-radius: 2px;
+	border: none;
+	width: 300px; 
+	top: 40%;
+  	left: 50%;
+  	margin-top: -250px;
+  	margin-left: -150px;
+	background-color:#03bdf4;
+}
+.pop-content .pop-header {
+  border-bottom: none;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 0px;
+  padding-left: 24px;
+  text-align: right;
+}
+.pop-content .pop-body {
+  padding-top: 0px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+.cal-top{
+	text-align: center;
+	padding: 10px;
+	color:#FFF;
+}
+.top-play{
+	position: absolute;
+	margin: 0 auto; 
+	width: 300px;
+	margin-top: -0.5%;
+}
+.cal-close{
+	float: right;
+	height: 25px;
+	width: 25px;
+	padding-right: 10px;
+	background: url(emerge-main-icons.png) -60px 0px no-repeat;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+}
+.cal-close:hover{
+	background-position: -60px -30px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.top-navigation{
+	display: inline-block;
+}
+.clear-all{
+	clear: both;
+}
+.prev-month,.prev-year{
+	text-align:left;
+	background: url(emerge-main-icons.png) -30px 0 no-repeat;
+	width:25px;
+	height:25px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+}
+.prev-month:hover,.prev-year:hover{
+	background-position: -30px -30px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.next-month,.next-year{
+	text-align:right;
+	background: url(emerge-main-icons.png) 0 0 no-repeat;
+	width:25px;
+	height:25px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+}
+.next-month:hover,.next-year:hover{
+	background-position: 0 -30px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.context-month, .context-year{
+	width:200px;
+}
+.cal-day{
+	background: #0381f4;
+	margin: -10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.cal-date{
+	font-size: 40px;
+}
+.cal-month, .cal-year{
+	font-size: 20px;
+	margin: -10px;
+}
+.cal-month{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.cal-year{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.cal-bottom{
+	background: #FFF;
+	padding: 15px;
+	padding-bottom: 30px;
+}
+table.cal-tb{
+	width: 100%;
+	text-align: center;
+}
+table.cal-tb td{
+	width: 14.28571428571429%;
+	border-radius: 100%;
+	color:#ccc;
+	background: #FFF;
+}
+table.cal-tb td.activated{
+	color:#000;
+	background: #FFF;
+	cursor:pointer;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+}
+table.cal-tb td.chosen{
+	color:#FFF;
+	background: #03bdf4;
+	cursor:pointer;
+}
+table.cal-tb td.activated:hover{
+	color:#03bdf4;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+    transition: 0.5s;
+}
+.cal-end{
+	 padding-top: 15px;
+	 text-align:right;
+}
+
+
+
